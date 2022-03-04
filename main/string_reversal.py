@@ -1,3 +1,3 @@
-from utilities.utilities import reverse_string
+from utilities import reverse_string
 
-assert reverse_string('henry') == 'yrneh'
+print(reverse_string("henry") == "yrneh")

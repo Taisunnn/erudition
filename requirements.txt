@@ -1,6 +1,8 @@
+anyio==3.5.0
 appnope==0.1.2
 argon2-cffi==21.3.0
 argon2-cffi-bindings==21.2.0
+asgiref==3.5.0
 asttokens==2.0.5
 attrs==21.4.0
 backcall==0.2.0
@@ -15,7 +17,9 @@ decorator==5.1.1
 defusedxml==0.7.1
 entrypoints==0.4
 executing==0.8.3
+fastapi==0.74.1
 greenlet==1.1.2
+h11==0.13.0
 idna==3.3
 ipykernel==6.9.1
 ipython==8.1.0
@@ -53,6 +57,7 @@ prompt-toolkit==3.0.28
 ptyprocess==0.7.0
 pure-eval==0.2.2
 pycparser==2.21
+pydantic==1.9.0
 Pygments==2.11.2
 pyparsing==3.0.7
 pyrsistent==0.18.1
@@ -64,8 +69,10 @@ QtPy==2.0.1
 requests==2.27.1
 Send2Trash==1.8.0
 six==1.16.0
+sniffio==1.2.0
 SQLAlchemy==1.4.31
 stack-data==0.2.0
+starlette==0.17.1
 terminado==0.13.1
 testpath==0.6.0
 tomli==2.0.1
@@ -73,6 +80,7 @@ tornado==6.1
 traitlets==5.1.1
 typing_extensions==4.1.1
 urllib3==1.26.8
+uvicorn==0.17.5
 wcwidth==0.2.5
 webencodings==0.5.1
 widgetsnbextension==3.5.2
