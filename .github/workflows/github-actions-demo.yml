@@ -6,3 +6,4 @@ jobs:
     steps:
       - run: echo "hello world"
       - run: echo "The name of my repository is ${{ github.repository }}."
+      - run: pytest
