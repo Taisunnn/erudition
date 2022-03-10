@@ -3,6 +3,11 @@ on: [push]
 jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
+
+    defaults:
+      run:
+        shell: bash
+
     steps:
     - name: Setup Python
       uses: actions/setup-python@v2
@@ -10,5 +15,5 @@ jobs:
         python-version: "3.10"
     - name: Run Tests
       run: |
-        pip install -r /Users/tyson/new_projects/assignment/requirements.txt
+        pip install -r requirements.txt
         pytest tests/
