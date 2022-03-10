@@ -7,3 +7,13 @@ jobs:
       - run: echo "hello world"
       - run: echo "The name of my repository is ${{ github.repository }}."
       - run: pytest
+
+    - name: Setup Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: "3.10"
+
+    - name: Run Tests
+      run: |
+        pip install -r requirements.txt
+        pytest tests/
