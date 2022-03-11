@@ -8,7 +8,8 @@ jobs:
       run:
         shell: bash
 
+    steps:
     - name: Run Tests
       run: |
         pip install -r requirements.txt
-        pytest tests/
+        pytest
