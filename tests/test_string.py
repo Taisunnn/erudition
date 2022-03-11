@@ -8,4 +8,7 @@ def test_string(input_string):
     assert reverse_string(input_string) == 'yrneh'
 
 def test_string(input_string2):
-    assert reverse_string(input_string2) == 'goooooooooood'
+    assert reverse_string(input_string2) == 'god'
+
+def test_string(input_string3):
+    assert reverse_string(input_string3) == '  dlrow  olleh  '

@@ -10,3 +10,8 @@ def input_string():
 def input_string2():
     string2 = 'dog'
     return string2
+
+@pytest.fixture
+def input_string3():
+    string3 = '  hello world  '
+    return string3
