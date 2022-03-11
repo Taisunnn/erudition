@@ -17,6 +17,6 @@ jobs:
     - name: Run Tests
       run: |
         pip install pytest
-        pwd
-        echo ls
+        cd ..
+        ls
         pytest
