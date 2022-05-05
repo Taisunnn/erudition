@@ -1,7 +1,7 @@
 # Learning Different Python Libraries and Data Tools
 * MySQL
 * Docker
-* * Requests
+* Requests
 * Pandas
 * Airflow
 * SQLAlchemy
