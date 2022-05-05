@@ -5,3 +5,5 @@
 * PyTests
 * FastAPI
 * Flask
+* CI/CD
+* Git
