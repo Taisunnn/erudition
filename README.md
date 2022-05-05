@@ -1,4 +1,5 @@
 # Learning Different Python Libraries and Data Tools
+* MySQL
 * Pandas
 * Airflow
 * SQLAlchemy
