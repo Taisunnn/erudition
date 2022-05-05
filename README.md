@@ -1,3 +1,7 @@
-# assignment
-Big Boss assignment
-
+# Learning Different Python Libraries and Data Tools
+* Pandas
+* Airflow
+* SQLAlchemy
+* PyTests
+* FastAPI
+* Flask
